@@ -1,8 +1,8 @@
 def hririak_ordenatzen (hiriak):
     for x in hiriak.values() :
         if x >= 200000:
-          gehiagokoen_zerrenad = []
-          gehiagokoen_zerrenad[x] = hiriak.key()
+          gehiagokoen_zerrenad = [len(hiriak)]
+          gehiagokoen_zerrenad[x] = hiriak.keys()
 
     print(gehiagokoen_zerrenad)
 
